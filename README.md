@@ -80,25 +80,28 @@ python ./evaluation/evaluation_e2e_interactive_learning_OpenImages.py			# end-to
 ```
 
 ### CUB
+1) Please download the ImageNet ResNet backbone (http://download.tensorflow.org/models/resnet_v2_101_2017_04_14.tar.gz) into `./model/resnet_CUB`
 
-1) To pretrain the logistic backbone network, please run the script:
+2) To pretrain the logistic backbone network, please run the script:
 ```
 python ./CUB_experiments/e2e_baseline_logistic_CUB.py
 ```
 
-2) To train and evaluate our method, please run the script:
+3) To train and evaluate our method, please run the script:
 ```
 python ./CUB_experiments/e2e_interactive_learning_CUB.py
 ```
 
 ### MSCOCO
 
-1) To pretrain the logistic backbone network, please run the script:
+1) Please download the ImageNet VGG backbone (http://download.tensorflow.org/models/vgg_16_2016_08_28.tar.gz) into `./model/vgg_ImageNet`
+
+2) To pretrain the logistic backbone network, please run the script:
 ```
 python ./MSCOCO_experiments/e2e_baseline_logistic_MSCOCO_vgg.py
 ```
 
-2) To train and evaluate our method, please run the script:
+3) To train and evaluate our method, please run the script:
 ```
 python ./MSCOCO_experiments/e2e_interactive_learning_MSCOCO.py
 ```

@@ -11,12 +11,6 @@ attr_name_file = path+'data/CUB/CUB_200_2011/attributes/attributes.txt'
 class_name_file =  path+'data/CUB/CUB_200_2011/classes.txt'
 class_signature_file = path+'data/CUB/CUB_200_2011/attributes/class_attribute_labels_continuous.txt'
 #%%
-record_path = path+'TFRecord/zs_mask_train_CUB_feature.tfrecords'
-trainval_path= path+'TFRecord/zs_mask_trainval_CUB_feature.tfrecords'
-validation_path = path+'TFRecord/zs_validation_CUB_feature.tfrecords'
-test_path = path+'TFRecord/zs_test_CUB_feature.tfrecords'
-sparse_dict_path = path+'TFRecord/zs_mask_train_CUB_feature.tfrecords'
-#%%
 train_img_path = path+'TFRecord/zs_mask_train_CUB_img.tfrecords'
 validation_img_path = path+'TFRecord/zs_validation_CUB_img.tfrecords'
 test_img_path = path+'TFRecord/zs_test_CUB_img.tfrecords'
