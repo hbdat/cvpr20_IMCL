@@ -1,0 +1,1 @@
+Please download and extract the annotation file ( http://msvocds.blob.core.windows.net/annotations-1-0-3/captions_train-val2014.zip ) into the this folder.

@@ -1,0 +1,1 @@
+Please download and extract the image file ( http://msvocds.blob.core.windows.net/coco2014/val2014.zip ) into the this folder.
