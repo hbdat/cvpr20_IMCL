@@ -4,6 +4,8 @@
 This repository contains the implementation of [Interactive Multi-Label CNN Learning with Partial Labels](http://khoury.neu.edu/home/eelhami/publications/InteractiveCMLL-CVPR20.pdf).
 > In this work, we address efficient end-to-end learning a multi-label CNN classifier with partial labels using an interactive dependency learning scheme.
 
+![Image](https://github.com/hbdat/cvpr20_IMCL/raw/master/fig/interactive_sim_classifer.png)
+
 ---
 ## Prerequisites
 + Python 3.x
