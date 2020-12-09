@@ -40,8 +40,10 @@ python ./extract_data/extract_feature_2_TFRecords_OpenImages.py			        		#`da
 ```
 Please change the `data_set` variable in the `extract_feature_2_TFRecords_OpenImages.py` script to `train`, and `validation` to extract features from different data splits.
 
-5) Please download sparse dictionary (https://drive.google.com/file/d/1he4omIq8N6SEuysFMNFeMkUlS7xpFIYE/view?usp=sharing) into the folder `./TFRecord/`
-
+5) Please download: 
+  + Sparse dictionary (https://drive.google.com/file/d/1he4omIq8N6SEuysFMNFeMkUlS7xpFIYE/view?usp=sharing) into the folder `./TFRecord/`
+  + Label graph (https://drive.google.com/file/d/1kg0UeInk33cKadq8rEU3i-3wSm3Oq7Oh/view?usp=sharing) into the folder `./label_graph/`
+  + Logistic model (https://drive.google.com/file/d/1our5lctu-H567VjX20X9TSgiGINIAPzz/view?usp=sharing) into the folder `./result/`
 
 ### CUB
 
