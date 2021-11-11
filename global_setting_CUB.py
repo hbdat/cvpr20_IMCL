@@ -16,7 +16,7 @@ validation_img_path = path+'TFRecord/zs_validation_CUB_img.tfrecords'
 test_img_path = path+'TFRecord/zs_test_CUB_img.tfrecords'
 sparse_img_dict_path = path+'TFRecord/zs_mask_train_CUB_img.tfrecords'
 #%%
-mask_signature_path = './CUB_mask/missing_signature_v2.npz'
+#mask_signature_path = './CUB_mask/missing_signature_v2.npz'
 batch_size = 32#32
 learning_rate_base = 0.001
 thresold_coeff = 1e-6
