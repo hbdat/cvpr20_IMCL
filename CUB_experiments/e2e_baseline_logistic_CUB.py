@@ -33,7 +33,6 @@ idx_GPU=1
 is_use_batch_norm = False
 os.environ["CUDA_VISIBLE_DEVICES"]="{}".format(idx_GPU)
 template_name='e2e_baseline_logistic_CUB'
-df_image = pd.read_csv('./data/2017_11/train/images.csv')
 fractions = global_setting_CUB.fractions
 global_step = tf.Variable(0, trainable=False,dtype=tf.float32)
 learning_rate = tf.Variable(global_setting_CUB.learning_rate_base,trainable = False,dtype=tf.float32)
