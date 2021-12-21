@@ -110,6 +110,11 @@ python ./MSCOCO_experiments/e2e_baseline_logistic_MSCOCO_vgg.py
 python ./MSCOCO_experiments/e2e_interactive_learning_MSCOCO.py
 ```
 
+## Pretrained Models
+As the pretrained models are implemented with an older tensorflow version, it might not work with the current code-base. 
+
++ If you need the pretrained models, please reach out to me via huynh.dat@northeastern.edu
+
 ---
 ## Citation
 If this code is helpful for your research, we would appreciate if you cite the work:
